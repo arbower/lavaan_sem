@@ -11,6 +11,7 @@ pacman::p_load("tidyverse", "assertthat", "babynames", "broom", "compare", "DBI"
 "rvest", "scales", "tidycensus", "usethis", "vroom", "yaml")
 
 # Parameters
+
   # Input Data
 
   # Output Data
@@ -18,6 +19,9 @@ pacman::p_load("tidyverse", "assertthat", "babynames", "broom", "compare", "DBI"
   # Load Data
 
 #===============================================================================
+#usethis::use_git()
+usethis::use_github()
+
 
 # Packages needed for this vignette
 pacman::p_load(lavaan, lavaanPlot)
